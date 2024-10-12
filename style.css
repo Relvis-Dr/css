@@ -1,0 +1,121 @@
+body { 
+    background-color: #f1f1f1; 
+    color: rgb(58, 6, 6); 
+    font-size: 16px; 
+    font-weight: normal; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+} 
+.avatar { 
+    width: 200px; 
+    border-radius: 50px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35); 
+} 
+a { 
+    color: black; 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: underline; 
+} 
+a:active { 
+    color: rgba(102, 5, 5, 0.788); 
+} 
+.info p { 
+    color: #360e0e; 
+    margin: 0; 
+    font-style: italic; 
+} 
+.info { 
+    display: flex;
+    margin-bottom: 20px; 
+} 
+
+@media (max-width: 700px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.container { 
+    max-width: 75%; 
+    margin: auto; 
+    padding-top: 30px;
+} 
+.bg-yellow { 
+background-color: #fcea92; 
+} 
+.bg-green { 
+    background-color: #9bfd9f; 
+} 
+.bg-red { 
+    background-color: #fd9393; 
+} 
+.card { 
+    margin-bottom: 20px; 
+    padding: 15px 20px; 
+    border-radius: 20px; 
+} 
+.card h3 { 
+    margin-bottom: 10px; 
+} 
+.list { 
+    padding: 0 20px; 
+} 
+.list li { 
+    color: #6d1515; 
+    margin-bottom: 10px; 
+} 
+.table { 
+    width: 100%; 
+} 
+.table td { 
+    padding-bottom: 10px; 
+} 
+.link-list li { 
+    margin-bottom: 10px; 
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #703131; 
+}
+.contact {
+   text-align: center; 
+}
+.form-group label {
+display: block;
+font-size: 14px;
+}
+.form-group input, .form-group textarea {
+    width: 75%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #703131;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+ display: flex;   
+ margin-bottom: 20px;
+}
+.row > .form-group  {
+    width: 50%;
+    margin-right: 20px;
+}
+.btn {
+    color: #703131;
+    padding: 10px 15px;
+    border-color: #bd6c6c;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 10;
+}
